@@ -1,0 +1,43 @@
+body {
+  margin-block: 50px;
+  align-content: center;
+  margin-left: 50px;
+}
+.caixeta {
+  text-align: center;
+  align-items: center;
+  padding: 100px;
+  background-color: brown;
+  width: fit-content;
+}
+
+.display {
+  background-color: aliceblue;
+  font-size: xx-large;
+}
+
+.botons button {
+  background-color: aliceblue;
+  font-size: x-large;
+  background-color: brown;
+  border: white solid 1px;
+  color: white;
+}
+
+.clear button {
+  background-color: aliceblue;
+  font-size: x-large;
+  background-color: brown;
+  border: white solid 1px;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.clear button:hover {
+  background-color: black;
+}
+
+.botons button:hover {
+  background-color: black;
+}
