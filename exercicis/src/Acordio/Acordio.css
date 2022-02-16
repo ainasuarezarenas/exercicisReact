@@ -1,0 +1,18 @@
+h1 {
+  background-color: lightslategray;
+  color: aliceblue;
+}
+
+.caixa {
+  margin: 60px;
+  display: block;
+  align-items: center;
+}
+
+desplegar {
+  display: block;
+}
+
+plegat {
+  display: none;
+}
