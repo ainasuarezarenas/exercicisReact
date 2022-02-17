@@ -1,18 +1,28 @@
 h1 {
   background-color: lightslategray;
   color: aliceblue;
+  cursor: pointer;
+}
+
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .caixa {
   margin: 60px;
   display: block;
   align-items: center;
+  background-color: rgb(220, 236, 231);
 }
 
-desplegar {
+.desplegat {
   display: block;
 }
 
-plegat {
+.plegat {
+  display: none;
+}
+
+.transparent {
   display: none;
 }
