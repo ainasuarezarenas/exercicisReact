@@ -1,0 +1,31 @@
+.caixa {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+h1 {
+  color: black;
+  background-color: white;
+}
+
+img {
+  width: 500px;
+  height: 338px;
+}
+
+.amaga {
+  display: none;
+}
+
+.mostra {
+  display: block;
+}
+
+button {
+  font-style: inherit;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  font-size: x-large;
+}
