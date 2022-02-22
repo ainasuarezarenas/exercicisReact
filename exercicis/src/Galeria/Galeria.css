@@ -13,10 +13,11 @@ h1 {
 
 .imgGran {
   width: 600px;
-  height: 269px;
+  height: 348px;
 }
 
 .imgPetita {
   width: 300px;
-  height: 169px;
+  height: 189px;
+  cursor: pointer;
 }
