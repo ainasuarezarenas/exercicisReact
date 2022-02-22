@@ -22,6 +22,11 @@ img {
   display: block;
 }
 
+.botonets {
+  display: flex;
+  justify-content: center;
+}
+
 button {
   font-style: inherit;
   cursor: pointer;

@@ -6,16 +6,19 @@ export default function ToggleButton() {
   const estaPremut = color !== "red";
 
   const toggle = () => {
-    if (color === "red") setColor("cyan");
+    if (color === "red") setColor("lightgreen");
     else setColor("red");
   };
 
   return (
     <>
-      <button style={{ background: color }} onClick={toggle}>
-        Toggle Me
-      </button>
-      {estaPremut ? <p>Està premut</p> : <p>No està premut</p>}
+      <div className="mig">
+        <button style={{ background: color }} onClick={toggle}>
+          Toggle Me
+        </button>
+        <br />
+        {estaPremut ? <p>Està premut</p> : <p>No està premut</p>}
+      </div>
     </>
   );
 }

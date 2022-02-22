@@ -1,0 +1,7 @@
+.display {
+  border: 1px solid black;
+}
+
+button {
+  display: inline-block;
+}

@@ -1,12 +1,12 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import llista from "./pages/llista";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -16,7 +16,7 @@ function App() {
           ))}
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

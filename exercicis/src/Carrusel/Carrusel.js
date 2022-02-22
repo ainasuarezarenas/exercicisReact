@@ -29,11 +29,13 @@ function Carrusel() {
         <button onClick={() => passar(0 + 1)}> → </button>
       </div>
 
-      {carrusel.map((url, index) => (
-        <button key={url} onClick={() => setImatgeclicada(index)}>
-          {imatgeclicada === index ? "○" : "●"}
-        </button>
-      ))}
+      <div className="botonets">
+        {carrusel.map((url, index) => (
+          <button key={url} onClick={() => setImatgeclicada(index)}>
+            {imatgeclicada === index ? "○" : "●"}
+          </button>
+        ))}
+      </div>
     </>
   );
 }

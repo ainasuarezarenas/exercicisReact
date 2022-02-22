@@ -11,11 +11,11 @@ function Acordio() {
   ];
 
   const titol = [
-    <h1>Títol 1</h1>,
-    <h1>Títol 2</h1>,
-    <h1>Títol 3</h1>,
-    <h1>Títol 4</h1>,
-    <h1>Títol 5</h1>,
+    <h1 className="titolss">Títol 1</h1>,
+    <h1 className="titolss">Títol 2</h1>,
+    <h1 className="titolss">Títol 3</h1>,
+    <h1 className="titolss">Títol 4</h1>,
+    <h1 className="titolss">Títol 5</h1>,
   ];
 
   const [desplegar, setDesplegar] = useState("plegat");
@@ -34,7 +34,7 @@ function Acordio() {
   return (
     <>
       <h2>Acordió</h2>
-      <div className="caixa">
+      <div className="caixaAcordio">
         <div onClick={() => show(0)}>{titol[0]}</div>
 
         <div className={titolclicat === 0 ? desplegar : "plegat"}>
